@@ -2,7 +2,7 @@
 /*
  * DON'T DO THIS:
  *
-$name = $_GET['name'];
+ * $name = $_GET['name'];
  */
 
 /* Do this instead: */
