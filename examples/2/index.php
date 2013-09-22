@@ -12,7 +12,7 @@ if(isset($_GET['name'])){
 ?>
 <html>
     <head>
-        <title>Example 1 - Getting Started with PHP<</title>
+        <title>Example 2 - Getting Started with PHP</title>
     </head>
     <body>
         <p>Hello, <?php echo $name; ?></p>
