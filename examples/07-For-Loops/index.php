@@ -13,7 +13,7 @@ $meat[] = 'fish';
 ?>
 <html>
 <head>
-    <title>Example 4 - Simple Arrays</title>
+    <title>Example 7 - For Loops</title>
 </head>
 <body>
 <h2>Fruit</h2>
