@@ -17,18 +17,28 @@ $meat[] = 'fish';
 </head>
 <body>
 <h2>Fruit</h2>
-<ul>
     <?php
-    foreach($fruit AS $key => $value){
-        echo '<li>' . $value . '</p>';
-    }
+    $fruit_count = count($fruit);
+    $f = 0;
     ?>
-</ul>
+    <ul>
+        <?php
+        while ($f < $fruit_count){
+            echo '<li>' . $fruit[$f] . '</li>';
+            $f++;
+        }
+        ?>
+    </ul>
 <h2>Meat</h2>
+<?php
+$meat_count = count($meat);
+$m = 0;
+?>
 <ul>
     <?php
-    foreach($meat AS $key => $value){
-        echo '<li>' . $value . '</p>';
+    while ($m < $meat_count){
+        echo '<li>' . $meat[$m] . '</li>';
+        $m++;
     }
     ?>
 </ul>
