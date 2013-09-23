@@ -12,9 +12,8 @@
     <?php
     $prefix = 'Mr.';
     $name = 'Joe';
-    echo "Hello, " . $prefix . " " . $name;
-    echo 'Hello, ' . $prefix . ' ' . $name;
+    echo "<p>Hello, $prefix $name</p>";
+    echo '<p>Hello, ' . $prefix . ' ' . $name. '</p>';
     ?>
-
     </body>
 </html>
